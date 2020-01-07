@@ -10,6 +10,6 @@ import java.util.List;
 public class BooksController {
     @GetMapping("/books")
     public List<Book> GetAllBooks() {
-        return Arrays.asList(new Book(1, "Mastery", "Robert Green"));
+        return Arrays.asList(new Book(1, "Mastashasfh", "Robert Green"));
     }
 }
